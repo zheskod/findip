@@ -18,9 +18,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8369028686:AAHtfct88TRx3KX4DQGA9sPWgaw27Anbp9g"
+BOT_TOKEN = ""
 IP_API_URL = "http://ip-api.com/json"
-YANDEX_MAPS_KEY = "05e04a7c-a39a-47b5-bdaf-246c496e8bf1"
+YANDEX_MAPS_KEY = ""
 
 
 def is_valid_ipv4(ip: str) -> bool:
